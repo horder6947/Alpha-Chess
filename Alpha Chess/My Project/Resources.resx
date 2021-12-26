@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Orange_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Orange Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_Black_Knight_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Hooded Black Knight Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metal_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Metal Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_White_Knight_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Hooded White Knight Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rook_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White Rook Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rookie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White Rookie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Pawn_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black Pawn Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Rook_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black Rook Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Bishop_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White Bishop Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Purple_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Purple Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_s_Turn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Other Images\Black's Turn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Pink Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_King_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black King Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_Default" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Default.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form 2 Background1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Form 2 Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Queen_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Queen Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Pawn_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black Pawn Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_King_Classic1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black King Classic.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Queen_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black Queen Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_King_CLassic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White King CLassic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Rook_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black Rook Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Rookie_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black Rookie Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="King_s_Ex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Other Images\King's Ex.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Bishop_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Bishop Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Rookie_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black Rookie Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_King_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black King Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Bishop_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black Bishop Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blurred_Wood" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Blurred Wood.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Whites_Turn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Other Images\Whites Turn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Bishop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black Bishop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rookie_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White Rookie Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White King.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Blue Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grey_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Grey Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rookie_Neo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Rookie Neo.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Knight_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Black Knight Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White Pawn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Form 2 Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Form 2 Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Knight_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Knight Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blurred_Wood_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Blurred Wood Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Pawn_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White Pawn Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_King" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black King.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Pawn_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Pawn Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Possible Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Other Images\Possible Move.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Knight_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black Knight Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Brown_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Brown Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_King_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White King Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Red Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Purple" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Purple.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rookie_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Rookie Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Newspaper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Newspaper.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Walnut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Walnut.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neo_Sample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Neo Sample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Walnut_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Walnut Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Queen_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White Queen Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Neo_Wood_Sample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Neo-Wood Sample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_White_Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Hooded White Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_White_Knight1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Hooded White Knight.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Orange" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Orange.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_Black_Knight_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Hooded Black Knight Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Default Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Default Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black Queen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Classic Pieces Sample" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Classic Pieces Sample.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Bishop_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black Bishop Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Rook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black Rook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Queen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White Queen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Take" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Other Images\Take.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_Black_Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Hooded Black Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rook_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\White Rook Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Grey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Grey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Rook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White Rook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Pawn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black Pawn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Knight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black Knight.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Bishop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\White Bishop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Queen_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\Black Queen Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Newspaper_Background" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 1 Backgrounds\Newspaper Background.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hooded_White_Knight_Neo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo)\Hooded White Knight Neo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Form 2 Backgrounds\Metal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_Rookie" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Neo-Wood)\Black Rookie.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="White_Knight_Classic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\All Pieces (Classic)\White Knight Classic.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="En Passant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Other Images\En Passant.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bishop_s_Rage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Bishop's Rage.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Castle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Castle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Ends" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Game Ends.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Game_Starts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Game Starts.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Main_Entrance" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Main Entrance.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Move" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Move.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Promotion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Promotion.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Queen_sAdvantageCycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Queen'sAdvantageCycle.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Take1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\..\..\Sounds\Take.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
